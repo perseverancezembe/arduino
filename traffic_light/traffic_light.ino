@@ -49,7 +49,7 @@ void changeLights() {
          
     digitalWrite(carYellow, LOW); //yellow off
     digitalWrite(carRed, HIGH); //red on
-        delay(1000); //wait 1 second till its safe
+    delay(1000); //wait 1 second till its safe
          
     digitalWrite(pedRed, LOW); //ped red off
     digitalWrite(pedGreen, HIGH); //ped green on
@@ -71,7 +71,7 @@ void changeLights() {
     digitalWrite(carYellow, HIGH); //yellow on  
     delay(1000);
     digitalWrite(carYellow, LOW); //yellow off
-        digitalWrite(carGreen, HIGH); 
+    digitalWrite(carGreen, HIGH); 
  
     changeTime = millis(); //record the time since last change of lights
     //then return to the main program loop
